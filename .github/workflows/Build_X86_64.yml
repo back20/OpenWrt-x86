@@ -46,7 +46,7 @@ on:
     - cron: 58 18 * * *
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_URL: https://github.com/back20/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: x86/x86.config
@@ -64,7 +64,7 @@ jobs:
   Checka:
     runs-on: ubuntu-latest
     env:
-      REPO_URL_Lede: https://github.com/coolsnowwolf/lede
+      REPO_URL_Lede: https://github.com/back20/lede
       REPO_BRANCH_Lede: master
       REPO_PATH_Lede : "Lede_x86"
     outputs:
